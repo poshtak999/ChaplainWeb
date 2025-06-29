@@ -20,6 +20,7 @@ function App() {
           <Route path="/player" element={<PlayerSupport />}/>
           <Route path="/ptsr" element={<PtsrSupport />}/>
           <Route path="/material" element={<MaterialPage />}/>
+          <Route path="*" element={<div className="text-5xl text-red-900 text-center">Сторінка не вірна</div>} />
         </Routes>
       </div>
     </>
