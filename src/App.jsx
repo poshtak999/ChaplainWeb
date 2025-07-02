@@ -36,9 +36,11 @@ function App() {
           <Route
             path="*"
             element={
-              <div className="flex flex-col text-amber-950 justify-center items-center text-5xl text-center">
-                <p>
-                  🔥 404 — Сторінку евакуйовано Ціль порожня. <br />
+              <div className="flex flex-col text-red-800 justify-center items-center text-5xl text-center m-10">
+                <p className="m-10 p-10">
+                  🔥 404 — Сторінку евакуйовано 
+                  <br />Ціль порожня. <br />
+                  <br />
                   Але ваша місія продовжується
                 </p>
               </div>

@@ -9,7 +9,7 @@ const Header = () => {
           Chaplain+ 🇺🇦
         </h1>
       </Link>
-      <p className="text-center text-5xl text-amber-50 font-stretch-70% mb-4">
+      <p className="text-center text-5xl text-amber-50 font-stretch-70% mb-4 cursor-default">
         Платформа для капеланів України
       </p>
     </header>
