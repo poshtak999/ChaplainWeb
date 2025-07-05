@@ -14,7 +14,6 @@ import Post1 from "./components/pagesPTSR/Post1";
 // import Post5 from "./components/pagesPTSR/Post5";
 // import Post6 from "./components/pagesPTSR/Post6";
 
-
 function App() {
   return (
     <>
@@ -26,8 +25,8 @@ function App() {
           <Route path="/bible" element={<BibleSupport />} />
           <Route path="/player" element={<PlayerSupport />} />
           <Route path="/ptsr" element={<PtsrSupport />} />
-                  <Route path="/post1" element={<Post1 />} />
-                  {/* <Route path="/post1" element={<Post2 />} />
+          <Route path="/post1" element={<Post1 />} />
+          {/* <Route path="/post1" element={<Post2 />} />
                   <Route path="/post1" element={<Post3 />} />
                   <Route path="/post1" element={<Post4 />} />
                   <Route path="/post1" element={<Post5 />} />
@@ -38,11 +37,17 @@ function App() {
             element={
               <div className="flex flex-col text-red-800 justify-center items-center text-5xl text-center m-10">
                 <p className="m-10 p-10">
-                  🔥 404 — Сторінку евакуйовано 
-                  <br />Ціль порожня. <br />
+                  🔥 404 — Сторінку евакуйовано
+                  <br />
+                  Ціль порожня. <br />
                   <br />
                   Але ваша місія продовжується
                 </p>
+                <Link to="/">
+                  <h1 className="text-5xl font-extrabold text-blue-50 p-2 m-1 ">
+                    Головна
+                  </h1>
+                </Link>
               </div>
             }
           />
