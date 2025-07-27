@@ -9,10 +9,10 @@ import { Link, Route, Routes } from 'react-router';
 import PtsrSupport from './components/PtsrSupport';
 import Post1 from './components/pagesPTSR/Post1';
 import Post2 from './components/pagesPTSR/Post2';
-// import Post3 from "./components/pagesPTSR/Post3";
-// import Post4 from "./components/pagesPTSR/Post4";
-// import Post5 from "./components/pagesPTSR/Post5";
-// import Post6 from "./components/pagesPTSR/Post6";
+import Post3 from "./components/pagesPTSR/Post3";
+import Post4 from "./components/pagesPTSR/Post4";
+import Post5 from "./components/pagesPTSR/Post5";
+import Post6 from "./components/pagesPTSR/Post6";
 
 function App() {
   console.log("work")
@@ -29,10 +29,10 @@ function App() {
           <Route path='/ptsr' element={<PtsrSupport />} />
           <Route path='/post1' element={<Post1 />} />
           <Route path="/post2" element={<Post2 />} />
-          {/* <Route path="/post1" element={<Post3 />} />
-                  <Route path="/post1" element={<Post4 />} />
-                  <Route path="/post1" element={<Post5 />} />
-                  <Route path="/post1" element={<Post6 />} /> */}
+          <Route path="/post3" element={<Post3 />} />
+          <Route path="/post4" element={<Post4 />} />
+          <Route path="/post5" element={<Post5 />} />
+          <Route path="/post6" element={<Post6 />} />
           <Route path='/material' element={<MaterialPage />} />
           <Route
             path='*'

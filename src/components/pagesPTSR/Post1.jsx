@@ -1,11 +1,11 @@
 function Post1() {
   return (
-    <div className="flex flex-col justify-center items-center p-5 sm:m-10 w-full">
-      <div className="bg-white/10 backdrop-blur-md border-white/30 rounded-3xl shadow-2xl p-6 sm:p-10 w-full max-w-4xl">
-        <h3 className="text-center text-3xl sm:text-5xl text-amber-50 font-bold mb-6 break-words">
+    <div className="flex flex-col justify-center items-center sm:m-10">
+      <div className="bg-white/10 backdrop-blur-md border-white/30 rounded-3xl shadow-2xl p-8 m-10 sm:p-10 max-w-4xl">
+        <h3 className="text-center text-3xl sm:text-5xl text-amber-50 font-bold break-words">
           Що таке ПТСР: природа, симптоми, механізми
         </h3>
-
+        <br />
         <div className="space-y-6 text-amber-50 text-2xl sm:text-2xl leading-relaxed break-words whitespace-pre-line">
           <div>
             <strong>Короткий зміст:</strong> Посттравматичний стресовий розлад — це психічна реакція на надзвичайно

@@ -1,7 +1,7 @@
 function Post2() {
     return (
-        <div className="min-h-screen flex flex-col justify-center items-center p-5 sm:m-10 w-full">
-            <div className="bg-white/10 backdrop-blur-md border-white/30 rounded-3xl shadow-2xl p-6 ">
+        <div className="flex flex-col justify-center items-center sm:m-10">
+            <div className="bg-white/10 backdrop-blur-md border-white/30 rounded-3xl shadow-2xl p-8 m-10">
                 <h3 className="text-center text-3xl sm:text-5xl text-amber-50 font-bold mb-6 break-words">
                     Як правильно спілкуватися з людиною, яка має ПТСР
                 </h3>
