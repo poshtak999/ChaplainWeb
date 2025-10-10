@@ -52,6 +52,7 @@ const PtsrSupport = () => {
           </div>
         </Link>
       </div>
+      <Link to="/" className="text-amber-50 text-2xl flex justify-center p-15">← Назад</Link>
     </div>
   );
 };

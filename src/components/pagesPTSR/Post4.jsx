@@ -1,7 +1,7 @@
 function Post4() {
     return (
         <div className="flex flex-col justify-center items-center sm:m-10">
-            <div className="bg-white/10 backdrop-blur-md border-white/30 rounded-3xl shadow-2xl p-4 m-4 sm:p-8">
+            <div className="bg-white/10 backdrop-blur-md border-white/30 rounded-3xl shadow-2xl p-4 m-3 sm:p-10 max-w-4xl">
                 <h3 className="text-center text-3xl sm:text-2xl text-amber-50 font-bold mb-6 break-words">
                     Слово Боже на фронті — як і коли говорити?
                 </h3>
@@ -27,7 +27,7 @@ function Post4() {
                         <strong>Використовуй коротко і влучно. </strong>
 
                         Один вірш у правильний момент може змінити життя. Навчай себе бути лаконічним.</div>
-                    <div className="px-20 sm:px-20">
+                    <div className="px-10 sm:px-10">
                         <strong>Висновок: </strong>
                         На фронті немає часу на довгі проповіді. Але є час для дотику Бога через тебе. Будь точним, чуйним і простим у слові.
                     </div>

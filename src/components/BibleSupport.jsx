@@ -16,9 +16,12 @@ const BibleSupport = () => {
             <p className="text-xl text-amber-50 mb-4 text-center ">
               {post.description}
             </p>
+
           </div>
+
         ))}
       </div>
+      <Link to="/" className="text-amber-50 text-2xl flex justify-center p-15">← Назад</Link>
     </div>
   );
 };
