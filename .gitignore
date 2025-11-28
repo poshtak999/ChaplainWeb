@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Database
+server/chaplain.db
+server/chaplain.db-journal
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -8,6 +8,12 @@ export default defineConfig({
     plugins: [tailwindcss(), react()],
     server: {
         host: true,
-        allowedHosts: ['9d787cb1b599.ngrok-free.app'],
+        port: 5173,
+        proxy: {
+            '/api': {
+                target: 'http://localhost:3001',
+                changeOrigin: true,
+            },
+        },
     },
 });

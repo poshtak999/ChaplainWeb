@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
             </h2>
           </div>
         </Link>
-        <Link to="/player">
+        <Link to="/prayer">
           <div className="flex justify-center items-center bg-white/10 backdrop-blur-md border-white/20 rounded-3xl shadow-lg p-6 max-w-md w-full hover:bg-white/40 transition duration-300 ease-in-out hover:underline-offset-0">
             <h2 className="text-3xl text-amber-50 font-bold mb-4 text-center">
               🙏 Молитовна підтримка

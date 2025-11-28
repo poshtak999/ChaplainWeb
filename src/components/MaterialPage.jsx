@@ -1,11 +1,11 @@
 import React from 'react';
 
-const AterialPage = () => {
+const MaterialPage = () => {
     return (
         <div>
-            <h1 className='text-8xl text-center'>MaterialPage</h1>
+            <h1 className='text-5xl text-center'>MaterialPage</h1>
         </div>
     );
 }
 
-export default AterialPage;
+export default MaterialPage;

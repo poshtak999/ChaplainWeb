@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const ErrorBlock = () => {
     return (
@@ -13,7 +13,7 @@ const ErrorBlock = () => {
                 <br />
                 Але ваша місія продовжується
             </p>
-            <Link to='/ptsr'>
+            <Link to='/'>
                 <h1 className='text-5xl font-extrabold text-blue-50'>
                     <span className='text-8xl'>⬅︎</span>
                 </h1>
