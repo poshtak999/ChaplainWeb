@@ -26,3 +26,6 @@ server/chaplain.db-journal
 *.njsproj
 *.sln
 *.sw?
+
+.env
+.README_plus-setup.md
