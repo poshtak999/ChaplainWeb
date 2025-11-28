@@ -27,5 +27,5 @@ server/chaplain.db-journal
 *.sln
 *.sw?
 
-.env
-.README_plus-setup.md
+*.env
+*.README_plus-setup.md
