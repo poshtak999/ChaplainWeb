@@ -46,37 +46,37 @@ function App() {
           <Route path='/material' element={<MaterialPage />} />
 
           {/* Admin Routes */}
-          <Route 
-            path='/admin' 
+          <Route
+            path='/admin'
             element={
               <ProtectedRoute>
                 <AdminPanel />
               </ProtectedRoute>
-            } 
+            }
           />
-          <Route 
-            path='/admin/bible' 
+          <Route
+            path='/admin/bible'
             element={
               <ProtectedRoute>
                 <BibleAdmin />
               </ProtectedRoute>
-            } 
+            }
           />
-          <Route 
-            path='/admin/prayer' 
+          <Route
+            path='/admin/prayer'
             element={
               <ProtectedRoute>
                 <PrayerAdmin />
               </ProtectedRoute>
-            } 
+            }
           />
-          <Route 
-            path='/admin/ptsr' 
+          <Route
+            path='/admin/ptsr'
             element={
               <ProtectedRoute>
                 <PtsrAdmin />
               </ProtectedRoute>
-            } 
+            }
           />
 
           <Route
