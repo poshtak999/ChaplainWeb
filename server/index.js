@@ -23,17 +23,6 @@ function generateToken() {
     );
 }
 
-// Admin authentication middleware
-function requireAdmin(req, res, next) {
-    const token = req.headers.authorization?.replace('Bearer ', '');
-
-    if (!token || !ADMIN_TOKENS.has(token)) {
-        return res.status(401).json({ error: 'Unauthorized' });
-    }
-
-    next();
-}
-
 // Initialize database
 createTables();
 seedDatabase();
